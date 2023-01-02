@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Nav from './Nav'
 
 
 function Header() {
@@ -10,6 +11,7 @@ function Header() {
             <Logodiv>
                 
             </Logodiv>
+            <Nav />
         </div>
         
         
@@ -18,9 +20,9 @@ function Header() {
 }
 
     const Logodiv = styled.div `
-    background-color: black;
+    background-color: #EEB5A2;
     width: 100vw;
-    height: 7vh;
+    height: 25vh;
     `
 
 export default Header
