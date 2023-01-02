@@ -18,9 +18,9 @@ function Header() {
 }
 
     const Logodiv = styled.div `
-    background-color: aliceblue;
+    background-color: black;
     width: 100vw;
-    height: 2vh;
+    height: 7vh;
     `
 
 export default Header
