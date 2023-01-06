@@ -20,6 +20,8 @@ function Header() {
 }
 
     const Logodiv = styled.div `
+    display: flex;
+    /* align-items: flex-start; */
     background-color: #EEB5A2;
     width: 100vw;
     height: 25vh;

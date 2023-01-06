@@ -1,10 +1,25 @@
 import React from 'react'
+import styled from 'styled-components'
+
 
 
 function Homepage() {
   return (
-    <h1>Homepage</h1>
+    <Wrapper 
+    
+    
+    
+    
+    
+    />
   )
 }
 
 export default Homepage
+
+const Wrapper = styled.div`
+    display: flex;
+    height: 100vh;
+
+
+`
