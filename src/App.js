@@ -8,6 +8,7 @@ import {
 import Product from './pages/Product';
 import Products from './pages/Products';
 import Footer from './components/Footer';
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
       <BrowserRouter>
       <Header />
         <Routes>
-          <Route path='/product' element={Product} ></Route>
-          <Route path='/products' element={Products} ></Route>
+          <Route path='/homepage' element={<Homepage />} />
+          <Route path='/product' element={<Product />} />
+          <Route path='/products' element={<Products />} />
         </Routes>
       <Footer />
-      </BrowserRouter>    
+      </BrowserRouter>   
     </div>
   );
 }
