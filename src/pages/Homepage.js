@@ -5,13 +5,8 @@ import styled from 'styled-components'
 
 function Homepage() {
   return (
-    <Wrapper 
-    
-    
-    
-    
-    
-    />
+    <Wrapper>
+    </Wrapper>
   )
 }
 

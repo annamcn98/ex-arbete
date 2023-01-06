@@ -32,6 +32,7 @@ const Footerdiv = styled.div`
 
     display: flex;
     justify-content: center;
+    align-self: flex-end;
     flex-wrap: wrap;
     background-color: #888888;
     padding-top: 30px;
@@ -43,13 +44,17 @@ const Footerdiv = styled.div`
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
-    padding-bottom: 30px;
-    `
-
+    padding-bottom: 5px;
+    font-size: 12px;
+    color:white;
+`
     const Div1 = styled.div `
     padding-right: 50px;
+    color:white;
     `
     const Div2 = styled.div `
     padding-left: 50px;
+    color: white;
 
     `
+
