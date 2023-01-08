@@ -21,7 +21,7 @@ function Product() {
   }
 
 }
-  useEffect( () => {
+  useEffect(() => {
     fetchProduct();
   },[])
 
@@ -44,4 +44,4 @@ function Product() {
 
   )
 }
-export default Product
+export default Product;

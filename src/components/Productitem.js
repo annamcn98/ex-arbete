@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 function ProductItem({product}) {
@@ -5,10 +6,10 @@ function ProductItem({product}) {
   
       
       <article>
-          <h1 to={`/products/${product.id}`}>
+          <h1 to={`/product/${product.id}`}>
             <h1>{product.title}</h1>
           </h1>
-              <Link to={`/products/${product.id}`}>
+              <Link to={`/product/${product.id}`}>
               <img src={product.url}></img>
               </Link>
             <h3>{product.price} SEK</h3>
