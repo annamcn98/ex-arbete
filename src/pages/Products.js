@@ -29,17 +29,17 @@ function Products() {
 
   return (
     <div>
-      <h2>
-        Welcome to Revive, this is where we give new life to electronics who has been on your shelf too long for you to keep it to yourself!
+      {/* <h2>
+        Welcome!
       </h2>
         <h1 className='all-products'>
           All products
             <motion.Emoji
               animate={{y:[0,100,0,100,0,100]}}
-              transition={{ duration: 4, delay: 1}}            >
+              transition={{ duration: 4, delay: 1}} >
               &#128071;&#127997;
               </motion.Emoji>
-        </h1>
+        </h1> */}
     <div>
       
         {
