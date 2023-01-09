@@ -1,16 +1,36 @@
 import React, {useState, useEffect} from 'react'
 import ProductItem from '../components/ProductItem';
-import styled from 'styled-components'
-import { motion } from "framer-motion"
+// import styled from 'styled-components'
+// import { motion } from "framer-motion"
+import WooCommerceRestApi from "@woocommerce/woocommerce-rest-api";
 
+// const api = new WooCommerceRestApi({
+//   url: process.env.WORDPRESS_URL,
+//   consumerKey: process.env.WOOCOMMERCE_KEY,
+//   consumerSecret: process.env.WOOCOMMERCE_SECRET,
+//   wpAPIPrefix: "examen/wp/wp-json",
+// });
+
+// export async function fetchWooCommerceProducts() {
+//     try {
+//         const response = await api.get("products");
+//         return response;
+//       } catch (error) {
+//         throw new Error(error);
+//       }
+//     }
 
 
 function Products() {
 
   const [products, setProducts] = useState([]);
+  // const wooProducts = await fetchWooCommerceProducts().catch((error)=> console.error(error));
 
+
+  
   const fetchProducts = async () => {
     try {
+      // const response = await fetchWooCommerceProducts().catch((error)=> console.error(error));
       const response = await fetch('https://codexplained.se/electronics.php');
       const data = await response.json();
       console.log(data)
@@ -56,4 +76,4 @@ function Products() {
 }
 
 
-export default Products
+export default Products;

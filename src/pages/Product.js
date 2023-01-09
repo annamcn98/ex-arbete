@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from "react-router-dom"
-import styled from 'styled-components'
-import Nav from '../components/Nav';
+// import styled from 'styled-components'
+// import Nav from '../components/Nav';
 
 
 function Product() {
@@ -23,7 +23,7 @@ function Product() {
 }
   useEffect(() => {
     fetchProduct();
-  },[])
+  },)
 
   return (
 
