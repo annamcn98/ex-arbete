@@ -1,14 +1,31 @@
 import React from 'react'
+import styled from 'styled-components'
+import Nav from './Nav'
+
+
 
 function Header() {
   return (
     <div>
 
-       <h1>Hej jag är en h1a</h1>
-    
+        <div>
+            <Logodiv>
+                
+            </Logodiv>
+            <Nav />
+        </div>
+        
         
     </div>
   )
 }
+
+    const Logodiv = styled.div `
+    display: flex;
+    /* align-items: flex-start; */
+    background-color: #EEB5A2;
+    width: 100vw;
+    height: 25vh;
+    `
 
 export default Header
