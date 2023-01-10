@@ -9,6 +9,7 @@ import Product from './pages/Product';
 import Products from './pages/Products';
 import Footer from './components/Footer';
 import Homepage from './pages/Homepage';
+import NoPageFound from './pages/NoPageFound';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       <BrowserRouter>
       <Header />
         <Routes>
-          <Route path='/homepage' element={<Homepage />} />
+          <Route path='/' element={<Homepage />} />
           <Route path='/product/:id' element={<Product />} />
           <Route path='/products' element={<Products />} />
+          <Route path='*' element={<NoPageFound />} />
         </Routes>
       <Footer />
       </BrowserRouter>   
