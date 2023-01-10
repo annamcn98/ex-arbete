@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function ProductItem({product}) {
     return (
   
       
       <article>
-          <h1 to={`/product/${product.id}`}>
-            <h1>{product.title}</h1>
-          </h1>
+          <Link to={`/product/${product.id}`}>
+            <h1>{product.name}</h1>
+          </Link>
               <Link to={`/product/${product.id}`}>
               <img src={product.url}></img>
               </Link>

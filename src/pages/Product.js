@@ -33,7 +33,7 @@ function Product() {
               <img src={product.url}></img>
             </div>
             <article>
-              <h2>{product.title}</h2>
+              <h2>{product.name}</h2>
               <p>p: {product.description}</p>
               <h3>Storage: {product.storage} left in stock</h3>
               <h2>{product.price} SEK</h2>
